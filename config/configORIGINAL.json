@@ -1,0 +1,22 @@
+{
+    "serverPath": "your_path/loop-server/",
+    "agent": "AJ RSS bot - https://atomjump.com",
+    "rssFeeds": [
+        {
+            "name": "BBC News",
+            "feed": "http://feeds.bbci.co.uk/news/rss.xml",
+            "email": "test@test.com",
+            "aj": "aj_unique_forum_name",
+            "freq": 5
+        },
+        {
+            "name": "Name of feed",
+            "feed": "RSS URL - XML feed  in Atom 2.0 format",
+            "email": "User who 'posts'",
+            "aj": "aj_feedback_forum",
+            "freq": "Number of minutes between auto-checking. Should be 5,60 or 1440"
+        }   
+    ]
+
+
+}
