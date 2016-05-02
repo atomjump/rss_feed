@@ -18,7 +18,7 @@ Download the .zip file or git clone the repository into the directory loop-serve
 
 Put into your crontab file:
 
-sudo crontab -e
+sudo crontab -e  
 	*/5 * * * *	/usr/bin/php /your_server_path/plugins/rss_feed/index.php 5  
     0 * * * *	/usr/bin/php /your_server_path/plugins/rss_feed/index.php 60  
 	0 0 * * *	/usr/bin/php /your_server_path/plugins/rss_feed/index.php 1440  
