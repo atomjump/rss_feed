@@ -128,7 +128,7 @@
 				  //Check if this item has already been shouted
 				  $sql = "SELECT * FROM tbl_feed WHERE var_unique_id = '" . trim($guid) . "'";
 				  $result = $api->db_select($sql);
-					if($row = mysql_fetch_array($result))
+					if($row = $api->db_fetch_array($result))
 					{
 			
 						//Already exists - fast skip
