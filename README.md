@@ -7,7 +7,7 @@ A plugin to reads an RSS feed live into an AtomJump Loop Server forum.
 
 ## Requirements
 
-AtomJump Loop Server >= 0.5.0
+AtomJump Loop Server >= 0.7.0
 
 
 ## Installation
