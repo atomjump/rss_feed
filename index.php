@@ -7,6 +7,16 @@
 	//		0 0 * * *	/usr/bin/php /your_server_path/plugins/rss_feed/index.php 1440
 
 
+	function trim_trailing_slash_local($str) {
+        return rtrim($str, "/");
+    }
+    
+    function add_trailing_slash_local($str) {
+        //Remove and then add
+        return rtrim($str, "/") . '/';
+    }
+
+
 	if(!isset($rss_feed_config)) {
         //Get global plugin config - but only once
 		$data = file_get_contents (dirname(__FILE__) . "/config/config.json");
@@ -31,7 +41,7 @@
     $agent = $rss_feed_config['agent'];
 	ini_set("user_agent",$agent);
 	$_SERVER['HTTP_USER_AGENT'] = $agent;
-	$start_path = $rss_feed_config['serverPath'];
+	$start_path = add_trailing_slash_local($rss_feed_config['serverPath']);
 
 	
 	
