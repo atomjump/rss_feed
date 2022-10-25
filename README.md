@@ -1,20 +1,20 @@
 <img src="https://atomjump.com/images/logo80.png">
 
 # rss_feed
-A plugin to reads an RSS feed live into an AtomJump Loop Server forum.
+A plugin to reads an RSS feed live into an AtomJump Messaging Server forum.
 
 
 
 ## Requirements
 
-AtomJump Loop Server >= 0.7.0
+AtomJump Messaging Server >= 0.7.0
 
 
 ## Installation
 
 Find the server at https://src.atomjump.com/atomjump/loop-server. Download and install.
 
-Download the .zip file or git clone the repository into the directory loop-server/plugins/rss_feed
+Download the .zip file or git clone the repository into the directory messaging-server/plugins/rss_feed
 
 Put into your crontab file:
 
