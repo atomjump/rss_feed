@@ -1,5 +1,7 @@
 <img src="https://atomjump.com/images/logo80.png">
 
+__WARNING: this project has now moved to https://src.atomjump.com/atomjump/rss_feed.git__
+
 # rss_feed
 A plugin to reads an RSS feed live into an AtomJump Messaging Server forum.
 
